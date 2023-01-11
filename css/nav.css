@@ -1,0 +1,13 @@
+nav{
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 60px;
+    position: fixed;
+    width: 100%;
+}
+nav .container{
+    width: 1280px;
+    
+    margin: 0 auto;
+    height: 100%;
+}
+

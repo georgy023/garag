@@ -1,0 +1,28 @@
+.discription{
+    background-color: rgb(14, 14, 14);
+    padding: 50px 0px;
+}
+.discription .container{
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(14, 14, 14);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.photo{
+    
+}
+img{
+    margin: 0 auto;
+}
+.text{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+        background-color: rgb(14, 14, 14);
+        color: rgb(182, 182, 182);
+    display: grid;
+    align-content: center;
+    
+ }
