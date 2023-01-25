@@ -80,3 +80,45 @@
     text-align: left;
     line-height: 1.2;
 }
+
+
+.start-gaz20{
+    height: 100vh;
+    background-image: url('../img/gaz20/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 100%;
+    position: relative;
+    display: grid;
+    place-content: center;
+    z-index: 10;
+}
+.start-gaz20::after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    content:"";
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.start-gaz20 .start-text img{
+    width: 250px;
+    z-index: 15;
+    margin: 0 auto;
+}
+.start-gaz20 .start-text{
+    font-size: 150px;
+    color: #fff;
+    z-index: 15;
+    text-align: left;
+    line-height: 1;
+    font-weight: bolder;
+}
+.start-gaz20 .start-text p{
+    font-size: 25px;
+    color: #fff;
+    width: 600px;
+    text-align: left;
+    line-height: 1.2;
+}
